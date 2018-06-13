@@ -10,7 +10,7 @@ date = gets
 puts "What time is it at?"
 time = gets
 puts "And who is the host?"
-gets.chomp = host_name
+host_name = gets
 
 puts "Dear {guest_name}, 
 you are cordially invited to the {party_name} on {date} at {time}. Please RSVP no later than October 30. 
