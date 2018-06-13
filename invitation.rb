@@ -4,7 +4,7 @@
 puts "Hi! You're being invited to a party. What is your name?"
 guest_name = gets
 puts "Which party are you attending?"
-gets.chomp = party_name
+party_name = gets
 puts "What day is the party?"
 gets.chomp = date
 puts "What time is it at?"
