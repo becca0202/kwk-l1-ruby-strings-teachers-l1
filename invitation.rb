@@ -2,7 +2,7 @@
 
 # Try starting out with puts'ing a string.
 puts "Hi! You're being invited to a party. What is your name?"
-gets.chomp = guest_name
+guest_name = gets
 puts "Which party are you attending?"
 gets.chomp = party_name
 puts "What day is the party?"
