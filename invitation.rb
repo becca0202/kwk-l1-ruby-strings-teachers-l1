@@ -12,7 +12,10 @@ time = gets
 puts "And who is the host?"
 host_name = gets
 
-puts "Dear {guest_name}, 
-you are cordially invited to the {party_name} on {date} at {time}. Please RSVP no later than October 30. 
+puts "Dear #{guest_name}, 
+
+you are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than October 30. 
+
 Sincerly,
-{host_name}"
+
+#{host_name}"
